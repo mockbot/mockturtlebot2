@@ -6,7 +6,7 @@ A simple ros2 differential drive robot.
 
 Hardware components
 ===================
-- Intel NUC 
+- Intel NUC i5/16G memory
 - Arduino NANO + Servoboard
 - LiFePO Accu 3S 11.2V 3200mAh
 - Step-Up/Step-Down converters for NUC and controllers
@@ -22,9 +22,13 @@ Software components
 - ROS2 Eloquent 
 - PyMata-AIO
 - py-trees
+- gazebo
 
 Requirements
 ============
+
+ros-eloquent with ament python support !!!
+
 apt install python3
 apt install python3-pip
 pip3 install pymata-aio
